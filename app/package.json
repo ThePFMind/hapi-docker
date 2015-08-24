@@ -1,0 +1,19 @@
+{
+  "name": "hapi-docker",
+  "version": "0.1.0",
+  "description": "Starter for hapijs",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm install && nodemon ./app.js",
+    "test": "make test"
+  },
+  "keywords": [
+    "hapi",
+    "docker"
+  ],
+  "author": "ThePFMind",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^9.0.3"
+  }
+}
